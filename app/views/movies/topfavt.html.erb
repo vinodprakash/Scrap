@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>IMDB Show</title>
+  <link rel="stylesheet"
+  href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-combined.min.css">
+</head>
+<body>
+
+  <h1 align="center"> <strong> TOP 250 MOVIES </strong></h1> 
+<hr> 
+<br>
+  <div class="span8">
+      <table class="table table-striped" align ="center">
+        <thead>
+          <tr>
+	    <th>Movie_id</th>	
+            <th>Movie</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+	
+        <% @list.each do | movie | %>
+          <tr>
+	
+	 <td> <%= movie.imdb_id %></td>
+	<td><a href="http://www.imdb.com/title/tt<%= movie.imdb_id %>/?ref_=chttp_tt_"><%= movie.title %></a></td>
+          <td><%= movie.year %> </td>
+          </tr>
+         <% end %>
+	
+	
+        </tbody>
+      </table>
+    </div>
+   </body>
+</html>
