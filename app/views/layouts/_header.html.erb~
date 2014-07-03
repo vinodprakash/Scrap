@@ -11,7 +11,8 @@
     <!-- Right Nav Section -->
     <ul class="right">
        <li class="has-dropdown">
-          </li>
+           <%= render '/layouts/login_links' %>
+      </li>
     </ul>
   </section>
 
