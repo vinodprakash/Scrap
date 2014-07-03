@@ -41,3 +41,5 @@ gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'devise'
 gem 'spotlite'
+gem 'omniauth'
+gem 'omniauth-facebook'
