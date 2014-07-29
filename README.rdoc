@@ -7,11 +7,12 @@
  rails s
  
 == Foundation-rails
+  Gemfile
  
-  gem 'foundation-rails' is used in gemfile
+  gem 'foundation-rails' 
   
-Then run bundle install
+ run bundle install
   
-You can run the following command to add Foundation:
+ Run the following command in your Terminal:
 
   rails g foundation:install
