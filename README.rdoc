@@ -16,4 +16,4 @@
 
   rails g foundation:install
 
-Live app : http://imdbscrapping.herokuapp.com/
+Check out Live app : http://imdbscrapping.herokuapp.com
