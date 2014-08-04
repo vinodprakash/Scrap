@@ -10,8 +10,11 @@
  
   gem 'foundation-rails' 
   
-run 'bundle install'
+ run 'bundle install'
   
-Run the following command in your Terminal:
+ Run the following command in your Terminal:
 
   rails g foundation:install
+
+Live app :
+   http://imdbscrapping.herokuapp.com/
